@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koperen Passer vzw — Samen cultuur beleven</title>
+<meta name="description" content="Koperen Passer brengt mensen samen rond lezingen, uitstappen, concerten en tentoonstellingen — georganiseerd door vrijwilligers, overal in Vlaanderen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..700&family=Archivo:wght@400..750&display=swap" rel="stylesheet">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- topbalk -->
+<div class="topbar">
+  <div class="container topbar-row">
+    <a href="#">Nieuwsbrief</a>
+    <a href="#">Vrijwilligersportaal</a>
+    <a href="#" class="topbar-strong">Inloggen</a>
+  </div>
+</div>
+
+<!-- header -->
+<header class="site-header">
+  <div class="container header-row">
+  <a class="brand" href="#">
+    <img src="img/logo.png" alt="Koperen Passer" class="brand-logo">
+    <span class="brand-text">
+      <span class="brand-name">Koperen Passer</span>
+      <span class="brand-motto">Labore et Constantia</span>
+    </span>
+  </a>
+  <nav class="main-nav" id="mainNav">
+    <div class="nav-head">
+      <span class="nav-head-brand"><img src="img/logo.png" alt="">Koperen Passer</span>
+      <button class="nav-close" id="navClose" aria-label="Sluit menu">×</button>
+    </div>
+    <a href="#" class="active">Home</a>
+    <a href="#agenda">Activiteiten</a>
+    <a href="#">Groepen</a>
+    <a href="#nieuws">Nieuws</a>
+    <a href="#over-ons">Over ons</a>
+    <a href="#word-lid" class="nav-cta-mobile">Word lid</a>
+    <div class="nav-foot">Labore et Constantia</div>
+  </nav>
+  <div class="header-actions">
+    <a href="#" class="search-btn" aria-label="Zoeken">⌕</a>
+    <a href="#word-lid" class="btn btn-red">Word lid</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  </div>
+</header>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- hero -->
+<section class="hero">
+  <img src="img/hero.webp" alt="" class="hero-img">
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <span class="hero-badge">Sociaal-culturele vereniging</span>
+    <h1>Samen cultuur beleven, dicht bij huis</h1>
+    <p>Koperen Passer brengt mensen samen rond lezingen, uitstappen, concerten en tentoonstellingen — georganiseerd door vrijwilligers, overal in Vlaanderen.</p>
+    <div class="hero-actions">
+      <a href="#agenda" class="btn btn-red">Bekijk de activiteiten</a>
+      <a href="#over-ons" class="btn btn-ghost">Wat is Koperen Passer?</a>
+    </div>
+  </div>
+</section>
+
+<!-- cijfers -->
+<section class="stats">
+  <div class="container stats-row">
+    <div class="stat"><span class="stat-num">70</span><span class="stat-label">lokale groepen in Vlaanderen</span></div>
+    <div class="stat"><span class="stat-num">5.000+</span><span class="stat-label">leden die cultuur samen beleven</span></div>
+    <div class="stat"><span class="stat-num">300+</span><span class="stat-label">activiteiten per jaar</span></div>
+  </div>
+</section>
+
+<!-- agenda -->
+<section class="section" id="agenda">
+  <div class="section-head">
+    <h2>Binnenkort op de agenda</h2>
+    <a href="#" class="link-red">Alle activiteiten →</a>
+  </div>
+  <div class="filters" id="filters">
+    <button class="chip active">Alles</button>
+    <button class="chip chip-blauw">Lezingen</button>
+    <button class="chip chip-groen">Uitstappen</button>
+    <button class="chip chip-oker">Concerten</button>
+    <button class="chip chip-plum">Expo's</button>
+    <button class="chip chip-teal">Wandelingen</button>
+  </div>
+  <div class="card-grid">
+
+    <article class="card">
+      <div class="card-media">
+        <img src="img/act-1.webp" alt="Museum Plantin-Moretus" loading="lazy">
+        <span class="badge badge-groen">za 11 jul</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta"><span class="card-place">Antwerpen</span><span class="tag tag-groen">Uitstap</span></div>
+        <h3>Gegidst bezoek: Museum Plantin-Moretus</h3>
+        <p>In de voetsporen van de oude drukkers — met gids, koffie na afloop.</p>
+        <div class="card-foot"><span class="card-group">Door: <strong>Groep Antwerpen</strong></span><a href="#" class="link-groen">Lees meer →</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-media">
+        <img src="img/act-2.webp" alt="Lezing De Vlaamse meesters" loading="lazy">
+        <span class="badge badge-blauw">do 16 jul</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta"><span class="card-place">Gent</span><span class="tag tag-blauw">Lezing</span></div>
+        <h3>Lezing: De Vlaamse meesters vandaag</h3>
+        <p>Kunsthistorica Els Vermeire bekijkt de oude meesters met een frisse blik.</p>
+        <div class="card-foot"><span class="card-group">Door: <strong>Groep Gent</strong></span><a href="#" class="link-blauw">Lees meer →</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-media">
+        <img src="img/act-3.webp" alt="Brugge achter de schermen" loading="lazy">
+        <span class="badge badge-groen">za 25 jul</span>
+        <span class="badge badge-dark badge-right">Volzet</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta"><span class="card-place">Brugge</span><span class="tag tag-groen">Uitstap</span></div>
+        <h3>Daguitstap: Brugge achter de schermen</h3>
+        <p>Stadsverkenning langs plekken die je als toerist nooit ziet.</p>
+        <div class="card-foot"><span class="card-group">Door: <strong>Groep Brugge</strong></span><a href="#" class="link-groen">Lees meer →</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-media">
+        <img src="img/act-4.webp" alt="Zomeravondconcert" loading="lazy">
+        <span class="badge badge-oker">zo 02 aug</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta"><span class="card-place">Leuven</span><span class="tag tag-oker">Concert</span></div>
+        <h3>Zomeravondconcert in de begijnhofkerk</h3>
+        <p>Ensemble Tiletum brengt renaissancemuziek — gratis voor leden.</p>
+        <div class="card-foot"><span class="card-group">Door: <strong>ProMusica</strong></span><a href="#" class="link-oker">Lees meer →</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-media">
+        <img src="img/act-5.webp" alt="Beiaardwandeling" loading="lazy">
+        <span class="badge badge-teal">wo 12 aug</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta"><span class="card-place">Mechelen</span><span class="tag tag-teal">Wandeling</span></div>
+        <h3>Beiaardwandeling bij valavond</h3>
+        <p>Met beklimming van de Sint-Romboutstoren en een verrassing bovenaan.</p>
+        <div class="card-foot"><span class="card-group">Door: <strong>Groep Mechelen</strong></span><a href="#" class="link-teal">Lees meer →</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-media">
+        <img src="img/act-6.webp" alt="Cartoonexpo" loading="lazy">
+        <span class="badge badge-plum">za 22 aug</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta"><span class="card-place">Hasselt</span><span class="tag tag-plum">Expo</span></div>
+        <h3>Expo: Cartoons — elke druppel telt</h3>
+        <p>Internationale cartoonexpo met gegidste rondleiding door de curator.</p>
+        <div class="card-foot"><span class="card-group">Door: <strong>Groep Hasselt</strong></span><a href="#" class="link-plum">Lees meer →</a></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- over ons -->
+<section class="about" id="over-ons">
+  <div class="container about-row">
+  <div class="about-text">
+    <span class="kicker">Over ons</span>
+    <h2>Een vereniging met passer en passie</h2>
+    <p>Koperen Passer is een sociaal-culturele vereniging waar groepen vrijwilligers kwaliteitsvolle culturele activiteiten organiseren: van gegidste wandelingen en museumbezoeken tot concerten, lezingen en daguitstappen.</p>
+    <p>Ons devies <em>Labore et Constantia</em> — met inzet en volharding — dragen we al even trots als de passer in ons embleem.</p>
+    <a href="#" class="link-underline">Maak kennis met onze werking</a>
+  </div>
+  <div class="about-media">
+    <img src="img/over-ons.webp" alt="Vrijwilligers aan het werk" class="about-photo" loading="lazy">
+    <div class="about-emblem"><img src="img/logo.png" alt=""></div>
+  </div>
+  </div>
+</section>
+
+<!-- nieuws -->
+<section class="section" id="nieuws">
+  <div class="section-head">
+    <h2>Nieuws</h2>
+    <a href="#" class="link-red">Meer nieuws →</a>
+  </div>
+  <div class="news-grid">
+    <article class="news-item">
+      <img src="img/nieuws-1.webp" alt="" loading="lazy">
+      <span class="news-date">24 juni 2026</span>
+      <h3>Koperen Passer verwelkomt zijn 5.000ste lid</h3>
+      <a href="#" class="link-red">Lees meer →</a>
+    </article>
+    <article class="news-item">
+      <img src="img/nieuws-2.webp" alt="" loading="lazy">
+      <span class="news-date">10 juni 2026</span>
+      <h3>Zomerprogramma 2026 staat online</h3>
+      <a href="#" class="link-red">Lees meer →</a>
+    </article>
+    <article class="news-item">
+      <img src="img/nieuws-3.webp" alt="" loading="lazy">
+      <span class="news-date">28 mei 2026</span>
+      <h3>Vrijwilligersdag: een inspiratiebad in Mechelen</h3>
+      <a href="#" class="link-red">Lees meer →</a>
+    </article>
+  </div>
+</section>
+
+<!-- word lid -->
+<section class="join" id="word-lid">
+  <div class="container join-row">
+  <div class="join-text">
+    <h2>Cultuur smaakt beter samen. Doe je mee?</h2>
+    <p>Word lid van Koperen Passer en ontdek elke maand nieuwe activiteiten bij jou in de buurt — alleen komen mag, samen genieten gegarandeerd.</p>
+    <ul class="join-perks">
+      <li><span class="check">✓</span>Een jaar lang activiteiten van alle lokale groepen</li>
+      <li><span class="check">✓</span>Ledenkorting op uitstappen, concerten en expo's</li>
+      <li><span class="check">✓</span>Vier keer per jaar ons ledenmagazine in de bus</li>
+    </ul>
+  </div>
+  <div class="join-card">
+    <div class="join-card-head">
+      <img src="img/logo.png" alt="">
+      <div><span class="join-card-title">Lidmaatschap 2026</span><span class="join-card-price">€ 30 per jaar · € 45 per gezin</span></div>
+    </div>
+    <a href="#" class="btn btn-red btn-block">Word lid</a>
+    <a href="#" class="link-red join-card-alt">Eerst eens proeven? Kom vrijblijvend langs →</a>
+  </div>
+  </div>
+</section>
+
+<!-- nieuwsbrief -->
+<section class="newsletter">
+  <div class="container newsletter-row">
+  <div class="newsletter-text">
+    <h2>Blijf op de hoogte</h2>
+    <p>Maandelijks het beste van onze agenda in je mailbox.</p>
+  </div>
+  <form class="newsletter-form" id="newsletterForm">
+    <input type="email" required placeholder="jouw@email.be" aria-label="E-mailadres">
+    <button type="submit" class="btn btn-dark">Schrijf me in</button>
+  </form>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="">
+        <span>Koperen Passer vzw</span>
+      </div>
+      <p>Vrijdagmarkt 22, 2000 Antwerpen<br>+32 3 000 00 00 · info@koperenpasser.be<br>BTW BE 0000.000.000 · RPR Antwerpen</p>
+    </div>
+    <div>
+      <span class="footer-head">Ontdekken</span>
+      <a href="#agenda">Activiteiten</a>
+      <a href="#">Onze groepen</a>
+      <a href="#nieuws">Nieuws</a>
+    </div>
+    <div>
+      <span class="footer-head">Meedoen</span>
+      <a href="#word-lid">Word lid</a>
+      <a href="#">Word vrijwilliger</a>
+      <a href="#">Nieuwsbrief</a>
+    </div>
+    <div>
+      <span class="footer-head">Volg ons</span>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Koperen Passer vzw</span>
+    <span class="footer-motto">Labore et Constantia</span>
+    <div class="footer-legal">
+      <a href="#">Cookie policy</a>
+      <a href="#">Privacyverklaring</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
